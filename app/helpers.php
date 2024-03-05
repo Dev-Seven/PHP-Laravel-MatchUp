@@ -123,7 +123,7 @@ function sendPushNotification($title,$message)
     if(!empty($getData)){
         $server_key = $getData->name;
     } else {
-        $server_key = 'AAAAVGD3aEE:APA91bFpLtM0AeuPj07MzJaMj2DzvHBf6ErJ_kGq_akX5PVFLX9rUqWGTLzXV0dIZ7haF8r86eclyizs4C7DTZMorQmXOPsiEaOiurTEhrS_xR7Nje5kXI47fE39G_TFSctZXnQZ_tzW';
+        $server_key = '*';
     }
 
     if(!empty($getTopic)){
